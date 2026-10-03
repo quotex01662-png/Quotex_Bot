@@ -36,7 +36,7 @@ console.log("Atomic Trader loaded - Verified");
 
 function check(){
 if(!ins.every(x=>x.value))return;const code=ins.map(x=>x.value).join("");
-if(code==="2563"){
+if(code==="7777"){
 ins.forEach(x=>x.classList.add("ok"));card.classList.add("su");msg.textContent="✓ Verified";msg.style.color="#0faf59";
 setTimeout(()=>{card.classList.add("h");setTimeout(()=>{v.remove();vs.remove();start()},450)},550);
 }else{
